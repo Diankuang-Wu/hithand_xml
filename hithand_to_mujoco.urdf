@@ -5,7 +5,7 @@
 <!-- =================================================================================== -->
 <robot name="hithand">
   <mujoco>
-        <compiler meshdir="/home/wu/urdf_xml/meshes/"
+        <compiler meshdir="meshes/"
                   balanceinertia="true"
                   strippath="false"/>
   </mujoco>
@@ -348,14 +348,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-palm-right.stl"/>
+        <mesh filename="meshes/hit-hand-2-palm-right.stl"/>
       </geometry>
       <material name="grey"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry name="hithand_right_palm_collision">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-palm-right.stl"/>
+        <mesh filename="meshes/hit-hand-2-palm-right.stl"/>
       </geometry>
     </collision>
   </link>
@@ -370,14 +370,14 @@
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <!-- <mesh filename="file://$(arg meshDirectory)visual/hit-hand-2-finger-basecover.dae" /> -->
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-basecover.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-basecover.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry name="hithand_Thumb_base_cover">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-basecover.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-basecover.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -407,14 +407,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phaprox.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phaprox.stl"/>
       </geometry>
       <material name="lightblue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.03 0 0"/>
       <geometry name="hithand_Thumb_phoarpox">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phaprox.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phaprox.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -443,14 +443,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phamed.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phamed.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.01 0 0"/>
       <geometry name="hithand_Thumb_phamed">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phamed.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phamed.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -479,14 +479,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phadist.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phadist.stl"/>
       </geometry>
       <material name="lightblue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry name="hithand_Thumb_phadist">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phadist.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phadist.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -517,14 +517,14 @@
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <!-- <mesh filename="file://$(arg meshDirectory)visual/hit-hand-2-finger-basecover.dae" /> -->
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-basecover.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-basecover.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry name="hithand_Index_base_cover">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-basecover.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-basecover.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -554,14 +554,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phaprox.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phaprox.stl"/>
       </geometry>
       <material name="lightblue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.03 0 0"/>
       <geometry name="hithand_Index_phoarpox">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phaprox.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phaprox.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -590,14 +590,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phamed.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phamed.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.01 0 0"/>
       <geometry name="hithand_Index_phamed">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phamed.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phamed.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -626,14 +626,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phadist.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phadist.stl"/>
       </geometry>
       <material name="lightblue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry name="hithand_Index_phadist">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phadist.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phadist.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -664,14 +664,14 @@
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <!-- <mesh filename="file://$(arg meshDirectory)visual/hit-hand-2-finger-basecover.dae" /> -->
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-basecover.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-basecover.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry name="hithand_Middle_base_cover">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-basecover.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-basecover.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -701,14 +701,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phaprox.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phaprox.stl"/>
       </geometry>
       <material name="lightblue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.03 0 0"/>
       <geometry name="hithand_Middle_phoarpox">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phaprox.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phaprox.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -737,14 +737,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phamed.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phamed.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.01 0 0"/>
       <geometry name="hithand_Middle_phamed">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phamed.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phamed.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -773,14 +773,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phadist.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phadist.stl"/>
       </geometry>
       <material name="lightblue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry name="hithand_Middle_phadist">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phadist.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phadist.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -811,14 +811,14 @@
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <!-- <mesh filename="file://$(arg meshDirectory)visual/hit-hand-2-finger-basecover.dae" /> -->
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-basecover.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-basecover.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry name="hithand_Ring_base_cover">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-basecover.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-basecover.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -848,14 +848,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phaprox.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phaprox.stl"/>
       </geometry>
       <material name="lightblue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.03 0 0"/>
       <geometry name="hithand_Ring_phoarpox">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phaprox.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phaprox.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -884,14 +884,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phamed.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phamed.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.01 0 0"/>
       <geometry name="hithand_Ring_phamed">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phamed.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phamed.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -920,14 +920,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phadist.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phadist.stl"/>
       </geometry>
       <material name="lightblue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry name="hithand_Ring_phadist">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phadist.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phadist.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -958,14 +958,14 @@
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <!-- <mesh filename="file://$(arg meshDirectory)visual/hit-hand-2-finger-basecover.dae" /> -->
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-basecover.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-basecover.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry name="hithand_Little_base_cover">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-basecover.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-basecover.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -995,14 +995,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phaprox.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phaprox.stl"/>
       </geometry>
       <material name="lightblue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.03 0 0"/>
       <geometry name="hithand_Little_phoarpox">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phaprox.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phaprox.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -1031,14 +1031,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phamed.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phamed.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.01 0 0"/>
       <geometry name="hithand_Little_phamed">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phamed.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phamed.stl"/>
       </geometry>
       <surface>
         <friction>
@@ -1067,14 +1067,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phadist.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phadist.stl"/>
       </geometry>
       <material name="lightblue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry name="hithand_Little_phadist">
-        <mesh filename="/home/wu/urdf_xml/meshes/hit-hand-2-finger-phadist.stl"/>
+        <mesh filename="meshes/hit-hand-2-finger-phadist.stl"/>
       </geometry>
       <surface>
         <friction>
